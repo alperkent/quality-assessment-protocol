@@ -33,7 +33,7 @@ def main():
                     'argparse (>=1.2.1)', 'boto3 (>=1.3.1)', 
                     'botocore (>=1.4.22)', 'cycler (>=0.10.0)', 
                     'decorator (>=4.0.9)', 'docutils (>=0.12)', 
-                    'future (>=0.15.2)', 'futures (>=3.0.5)', 
+                    'future (>=0.15.2)', 'futures (>=3.4.0)', # changed from 3.0.5
                     'html5lib (>=1.0b8)', 'httplib2 (>=0.9.2)', 
                     'jmespath (>=0.9.0)', 'matplotlib (>=1.5.1)', 
                     'networkx (>=1.11)', 'nibabel (>=2.0.2)', 
