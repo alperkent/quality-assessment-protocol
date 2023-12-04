@@ -43,7 +43,7 @@ def main():
                     'python_dateutil (>=2.5.3)', 'pytz (>=2016.4)', 
                     'reportlab (>=3.3.0)', 'scipy (>=0.17.1)', 
                     'seaborn (>=0.7.0)', 'simplejson (>=3.8.2)', 
-                    'six (>=1.10.0)', 'traits (>=4.5.0)', 'wsgiref (>=0.1.2)',
+                    'six (>=1.10.0)', 'traits (>=4.5.0)', # 'wsgiref (>=0.1.2)', removed since it is already included in python3 standard library and throws an error
                     'xhtml2pdf (>=0.1a4)', 'configparser (>=3.5.0)',
                     'lockfile (>=0.12)'],
           install_requires=['numpy >=1.11.0', 'INDI-Tools >=0.0.6', 
@@ -61,7 +61,7 @@ def main():
                     'python-dateutil >=2.5.3', 'pytz >=2016.4', 
                     'reportlab >=3.3.0', 'scipy >=0.17.1', 
                     'seaborn >=0.7.0', 'simplejson >=3.8.2', 
-                    'six >=1.10.0', 'traits >=4.5.0', 'wsgiref >=0.1.2',
+                    'six >=1.10.0', 'traits >=4.5.0', # 'wsgiref >=0.1.2', removed since it is already included in python3 standard library and throws an error
                     'xhtml2pdf >=0.1a4', 'configparser >=3.5.0', 
                     'numpy >=1.11.0', 'lockfile >=0.12'],
           zip_safe=False)
