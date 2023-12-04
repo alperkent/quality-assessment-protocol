@@ -6,7 +6,7 @@ def main():
 
     exec(open('qap/version.py').read())
     setup(name='qap',
-          version=__version__,
+          version='1.0.8b', # changed due to error when accessing __version__ variable in version.py
           description='A collection of three quality assessment pipelines '
                       'for anatomical MRI and functional MRI scans.',
           author='Cameron Craddock, Zarrar Shehzad, Steven Giavasis,'
